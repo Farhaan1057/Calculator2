@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1a6756, #000000);
+
+}
+
+.Calculator {
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 0 auto;
+  background: transparent;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.Calculator:hover {
+  box-shadow: 0px 5px 45px rgb(249, 0, 0);
+}
+
+input {
+  width: 98%;
+  padding: 5px;
+  border: 2px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.1s ease-in-out;
+  font-size: 20px;
+  text-align: right;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  display: flex;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px 2px rgba(129, 69, 69, 0.5);
+}
+
+input {
+  background: linear-gradient(to right, #26d6b6, #57ffff);
+}
+
+button{
+  border: none;
+  width: 52px;
+  height: 52px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgb(11, 0, 0);
+  transition: box-shadow 0.1s ease-in-out;
+  font-weight: bolder;
+  font-size: 19px;
+}
+
+button:hover{
+  background-color: #5fe69c;
+  box-shadow: 2px 4px 22px rgb(0, 0, 0);
+}
+
+.EqualBtn{
+  background-color: #17b7f1;
+  outline: none;
+  font-size: 25px;
+  border-color: #7eff0d;
+  /* Gold color */
+  color: #000;
+  font-weight: bold;
+  background: linear-gradient(to right, #c1c703, #0e4350);
+}
+
+.EqualBtn:hover{
+  background-color: #ffffff;
+  box-shadow: 2px 5px 15px rgba(175, 159, 159, 0.4);
+}
+
+
